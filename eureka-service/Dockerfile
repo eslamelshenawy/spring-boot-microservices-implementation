@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-MAINTAINER Nikhil Shinde <nikhilshinde57@gmail.com>
+MAINTAINER Nikhil Shinde <>
 VOLUME /tmp
 ARG JAR_FILE=/target/*.jar
 COPY ${JAR_FILE} /eureka-service-1.0-SNAPSHOT.jar

@@ -1,5 +1,5 @@
 FROM openjdk:8
-MAINTAINER Nikhil Shinde <nikhilshinde57@gmail.com>
+MAINTAINER Nikhil Shinde <>
 RUN apt-get -q update && apt-get -qy install netcat
 VOLUME /tmp
 COPY ./ ./wait-for.sh /

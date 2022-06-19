@@ -28,7 +28,7 @@ public class SwaggerConfig {
         .title("Leave service REST API")
         .version("1.0")
         .termsOfServiceUrl("Terms of service")
-        .contact(new Contact("Nikhil Shinde", "", "nikhilshinde57@gmail.com"))
+        .contact(new Contact("Nikhil Shinde", "", ""))
         .license("Apache License Version 2.0")
         .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
         .build();
